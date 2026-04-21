@@ -3,15 +3,15 @@ import pandas as pd
 import pickle
 import numpy as np
 
-# 1. LOAD DATASET UNTUK MENGAMBIL DAFTAR UNIK
+# LOAD DATASET UNTUK MENGAMBIL DAFTAR UNIK
 df_asli = pd.read_csv('job_salary_prediction_dataset.csv')
 
-# 2. LOAD SEMUA MODEL & TRANSFORMER
+# LOAD SEMUA MODEL & TRANSFORMER
 ridge = pickle.load(open('ridge.pkl', 'rb'))
 dt = pickle.load(open('dt.pkl', 'rb'))
 poly_model = pickle.load(open('poly.pkl', 'rb'))
 poly_transform = pickle.load(open('poly_transform.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb')) # Load scaler yang disimpan tadi
+scaler = pickle.load(open('scaler.pkl', 'rb')) 
 columns = pickle.load(open('columns.pkl', 'rb'))
 
 st.title("🚀 Prediksi Gaji Profesional")
