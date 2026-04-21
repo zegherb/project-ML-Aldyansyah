@@ -17,7 +17,7 @@ columns = pickle.load(open('columns.pkl', 'rb'))
 st.title("🚀 Prediksi Gaji Profesional")
 st.write("Masukkan profil profesional untuk memprediksi estimasi gaji.")
 
-st.markdown("#### Author: La Ode Muhammad Aldyansyah Ombi")
+st.markdown("# Author: La Ode Muhammad Aldyansyah Ombi")
 
 # --- SIDEBAR: PILIH MODEL ---
 model_choice = st.sidebar.selectbox("Algoritma Model", [
