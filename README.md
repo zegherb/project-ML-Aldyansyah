@@ -2,4 +2,4 @@
 
 ## 🚀 Demo Aplikasi
 
-Kunjungi aplikasi web langsung di: [https://project-ml-aldyansyah.streamlit.app/](https://project-ml-aldyansyah.streamlit.app/)
+Kunjungi aplikasi web langsung di: [https://project-ml-aldyansyah.streamlit.app/](https://project-ml-aldyansyah.streamlit.app/) atau [https://app.barkalopstudio.site/](https://app.barkalopstudio.site/)
